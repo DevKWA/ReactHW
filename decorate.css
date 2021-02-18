@@ -1,0 +1,125 @@
+body{
+background-color: lightsteelblue;
+color:blanchedalmond;
+
+
+}
+
+ header {
+    color: blanchedalmond;
+    font-size: 43px;
+    text-align: center;
+}
+
+.reviews {
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    left: 200px;
+    border: 3px solid beige;
+    padding: 50px;
+    border-radius: 3px;
+   
+}
+.numOfRevs{
+    color: black;
+    font-size: 50px;
+}
+
+.average-rating{
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    left: 475px;
+    border: 3px solid beige;
+    padding: 50px;
+
+    
+}
+
+.ratingNumber{
+    color:black;
+    font-size: 50px;
+}
+
+.sentiment-analysis{
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    left: 885px;
+    border: 3px solid beige;
+    padding: 50px;
+    
+}
+
+.sentimentNum{
+    color: black;
+    font-size: 50px;
+}
+
+.website-visitors{
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    left: 1375px;
+    border: 3px solid beige;
+    padding: 50px;
+    border-radius: 3px;
+}
+
+.numOfVisitors{
+    color: black;
+    font-size: 50px;
+}
+
+ /* The side navigation menu */
+ .sidenavIce {
+    height: 100%; /* 100% Full-height */
+    width: 200px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: transparent; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    
+  }
+  
+  /* The navigation menu links */
+  .sidenavIce a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color:blanchedalmond;
+    display: block;
+    transition: 0.5s;
+    
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenavIce a:hover {
+    color:lightseagreen;
+
+  }
+  
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenavIce {padding-top: 15px;}
+    .sidenavIce a {font-size: 18px;}
+  } 
+
+  @font-face{
+    font-family:'Icecreamer';
+    src: url(Icecreamer.ttf), /* add a commma after the(NiseSegaSonic.ttf), fixed the issue with the font.*/
+    format('truetype');
+
+}
